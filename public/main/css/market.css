@@ -1,0 +1,637 @@
+.market-inventory-content {
+    width: 700px;
+}
+
+.market-inventory-content > .market-inventory-header {
+    display: flex;
+    min-height: 33px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.market-inventory-content > .market-inventory-items {
+    display: block;
+}
+
+.market-inventory-header > .market-inventory-header--title {
+    display: block;
+    font-size: 25px;
+    font-weight: 500;
+}
+.market-inventory-header > .market-inventory-header--actions {
+    display: flex;
+    margin-left: auto;
+}
+
+.market-inventory-header--actions > .market-inventory-header--button {
+    display: flex;
+    align-items: center;
+    padding: 7px 14px;
+    color: white;
+    background: #efc558;
+    border: 0;
+    outline: none;
+    border-radius: 2px;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.market-inventory-header--button:last-child {
+    margin-right: 0px;
+}
+.market-inventory-header--button > span {
+    display: none;
+    color: #ffffffc4;
+    margin-left: 5px;
+}
+.market-inventory-header--button._btn_sell_cr > span {
+    color: #50af5ea3;
+}
+.market-inventory-header--button._btn_sell_cr {
+    background: none;
+    color: #50af5e;
+    border: 2px solid #9ad3a2;
+}
+.market-inventory-header--button._btn_sell_cr:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    background-image: url('/images/market-button-icons.png?10');
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.market-inventory-header--button._btn_draw_game:before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    margin-right: 8px;
+    background-image: url('/images/market-button-icons.png?10');
+    background-position: 0px -22px;
+    background-repeat:  no-repeat;
+    background-size: cover;
+}
+
+.market-inventory-items > .market-inventory-items--list {
+    display: block;
+}
+.market-inventory-items > .market-inventory-items--empty {
+    width: 290px;
+    margin: 50px auto;
+}
+
+.market-inventory-items--list > .market-list-entry {
+    display: block;
+}
+
+.market-inventory-items--empty > .market-inventory-empty--image {
+    width: 165px;
+    height: 146px;
+    background-image: url('/images/market-empty.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+}
+.market-inventory-items--empty > .market-inventory-empty--text {
+    color: #717171;
+    padding-top: 20px;
+    line-height: 1.5;
+    text-align: center;
+    font-size: 15px;
+}
+
+.market-list-entry._hor_list:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.market-list-entry._hor_list:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+    border-bottom: 1px solid #ededed;
+}
+.market-list-entry._hor_list {
+    display: flex;
+    align-items: center;
+    padding: 12px 16px;
+    border: 1px solid #ededed;
+    border-bottom: 0px;
+}
+.market-list-entry._check_list {
+    cursor: pointer;
+}
+.market-list-entry > .market-list-entry--check {
+    display: block;
+    width: 17px;
+    min-width: 17px;
+    height: 17px;
+    margin-right: 15px;
+    background-image: url('/images/check-icons.png?10');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.market-list-entry > .market-list-entry--item {
+    width: 166;
+    min-width: 166;
+    height: 185;
+    margin: -67px -45px -66px -60px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transform: scale(0.28);
+}
+.market-list-entry > .market-list-entry--title {
+    display: block;
+    margin-right: 20px;
+    width: 160px;
+    line-height: 1.5;
+    font-size: 15px;
+}
+.market-list-entry > .market-list-entry--center_info {
+    display: flex;
+    width: 370px;
+    justify-content: space-evenly;
+    margin-left: auto;
+}
+
+.market-list-entry--center_info > .market-list-entry--derived {
+    color: gray;
+}
+.market-list-entry--center_info > .market-list-entry--date {
+    color: gray;
+    margin: 0px 20px;
+}
+.market-list-entry--center_info > .market-list-entry--cost {
+    width: 60px;
+    font-weight: bold;
+}
+
+.market-list-entry--check._checked {
+    background-position: 0px -25px;
+}
+
+.mi-0 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -2040px;
+}
+.mi-1 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-2 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-3 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-4 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -557px;
+}
+.mi-5 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-6 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-7 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-8 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-9 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-10 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -557px;
+}
+.mi-11 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-12 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-13 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-14 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-15 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -1484px;
+}
+.mi-16 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-gold-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-17 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-18 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-19 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-20 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -556px;
+}
+.mi-21 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-22 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-23 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-24 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-25 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -1484px;
+}
+.mi-26 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-viloet-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-27 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-28 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -185px;
+}
+.mi-29 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-30 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -556px;
+}
+.mi-31 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-32 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-33 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-34 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-35 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -1484px;
+}
+.mi-36 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-blue-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-37 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-38 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-39 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-40 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -556px;
+}
+.mi-41 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-42 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-43 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-44 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-45 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -1483px;
+}
+.mi-46 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-cyan-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-47 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-48 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-49 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-50 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -556px;
+}
+.mi-51 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-52 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-53 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-54 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-55 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -1484px;
+}
+.mi-56 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-white-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-57 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-58 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-59 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-60 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -557px;
+}
+.mi-61 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-62 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-63 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-64 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-65 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -1483px;
+}
+.mi-66 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-green-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-67 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-68 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-69 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-70 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -557px;
+}
+.mi-71 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-72 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-73 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-74 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-75 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -1484px;
+}
+.mi-76 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-pink-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-77 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-78 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-79 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-80 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -556px;
+}
+.mi-81 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-82 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-83 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-84 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-85 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -1484px;
+}
+.mi-86 {
+    background-image: url(https://amazing-rp.ru/images/market-weapons-red-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-87 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px 0px;
+}
+.mi-88 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -186px;
+}
+.mi-89 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -371px;
+}
+.mi-90 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -556px;
+}
+.mi-91 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -742px;
+}
+.mi-92 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-93 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -1113px;
+}
+.mi-94 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -1298px;
+}
+.mi-95 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -1483px;
+}
+.mi-96 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-97 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -1855px;
+}
+.mi-98 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -2225px;
+}
+.mi-99 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -927px;
+}
+.mi-100 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -1484px;
+}
+.mi-101 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -2040px;
+}
+.mi-102 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -1855px;
+}
+.mi-103 {
+    background-image: url(https://amazing-rp.ru/images/market-cars-icons.png?10);
+    background-position: 0px -1669px;
+}
+.mi-104 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -2411px;
+}
+.mi-105 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -3153px;
+}
+.mi-106 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -3338px;
+}
+.mi-107, .mi-108, .mi-109, .mi-110, .mi-111, .mi-112, .mi-113, .mi-114 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -4451px;
+}
+.mi-115 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -3895px;
+}
+.mi-116 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -4265px;
+}
+.mi-117 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -4080px;
+}
+.mi-118 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -2596px;
+}
+.mi-119 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -2967px;
+}
+.mi-120 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -3524px;
+}
+.mi-121 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -3709px;
+}
+.mi-122 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -4822px;
+}
+.mi-123 {
+    background-image: url(https://amazing-rp.ru/images/market-other-icons.png?10);
+    background-position: 0px -4636px;
+}
