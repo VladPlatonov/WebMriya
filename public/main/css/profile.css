@@ -295,10 +295,13 @@ margin-top: 20px;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
-tbody {
+.inventory-table {
     max-height: 800px;
     overflow-y: auto;
     -ms-overflow-y: auto;
+}
+
+.inventory-table tbody tr {
 }
 
 table img {
@@ -306,7 +309,7 @@ table img {
     height: auto;
 }
 
-table td {
+.buttons {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
