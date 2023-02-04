@@ -297,11 +297,12 @@ margin-top: 20px;
 
 .inventory-table {
     max-height: 800px;
-    overflow-y: auto;
-    -ms-overflow-y: auto;
+    overflow-y: scroll;
+    -ms-overflow-y: scroll;
 }
 
 .inventory-table tbody tr {
+    margin: 15px 0;
 }
 
 table img {
@@ -314,6 +315,7 @@ table img {
     flex-direction: row;
     justify-content: space-around;
     align-content: center;
+    margin: auto 0;
 }
 
 table td button:first-of-type {
