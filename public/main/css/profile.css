@@ -295,10 +295,13 @@ margin-top: 20px;
   animation: fadeEffect 1s; /* Fading effect takes 1 second */
 }
 
-.inventory-table {
+.inventory-table > tbody {
+    display: block;
     max-height: 800px;
     overflow-y: scroll;
     -ms-overflow-y: scroll;
+    margin-top: 30px;
+    padding: 5px;
 }
 
 .inventory-table tbody tr {
@@ -318,7 +321,11 @@ table img {
     margin: auto 0;
 }
 
-table td button:first-of-type {
+.buttons > button {
+  margin: 25px 0 0 20px;
+}
+
+.buttons > button:first-of-type {
     appearance: none;
     background-color: #2ea44f;
     border: 1px solid rgba(27, 31, 35, .15);
@@ -343,33 +350,33 @@ table td button:first-of-type {
     white-space: nowrap;
 }
 
-table td button:first-of-type:focus:not(:focus-visible):not(.focus-visible) {
+.buttons > button:first-of-type:focus:not(:focus-visible):not(.focus-visible) {
     box-shadow: none;
     outline: none;
 }
 
-table td button:first-of-type:hover {
+.buttons > button:first-of-type:hover {
     background-color: #2c974b;
 }
 
-table td button:first-of-type:focus {
+.buttons > button:first-of-type:focus {
     box-shadow: rgba(46, 164, 79, .4) 0 0 0 3px;
     outline: none;
 }
 
-table td button:first-of-type:disabled {
+.buttons > button:first-of-type:disabled {
     background-color: #94d3a2;
     border-color: rgba(27, 31, 35, .1);
     color: rgba(255, 255, 255, .8);
     cursor: default;
 }
 
-table td button:first-of-type:active {
+.buttons > button:first-of-type:active {
     background-color: #298e46;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
 
-table td button:last-of-type {
+.buttons > button:last-of-type {
     appearance: none;
     background-color: #a42e2e;
     border: 1px solid rgba(27, 31, 35, .15);
@@ -394,28 +401,28 @@ table td button:last-of-type {
     white-space: nowrap;
 }
 
-table td button:last-of-type:focus:not(:focus-visible):not(.focus-visible) {
+.buttons > button:last-of-type:focus:not(:focus-visible):not(.focus-visible) {
     box-shadow: none;
     outline: none;
 }
 
-table td button:last-of-type:hover {
+.buttons > button:last-of-type:hover {
     background-color: #972c2c;
 }
 
-table td button:last-of-type:focus {
+.buttons > button:last-of-type:focus {
     box-shadow: rgba(164, 46, 46, 0.4) 0 0 0 3px;
     outline: none;
 }
 
-table td button:last-of-type:disabled {
+.buttons > button:last-of-type:disabled {
     background-color: #d39494;
     border-color: rgba(27, 31, 35, .1);
     color: rgba(255, 255, 255, .8);
     cursor: default;
 }
 
-table td button:last-of-type:active {
+.buttons > button:last-of-type:active {
     background-color: #8e2929;
     box-shadow: rgba(20, 70, 32, .2) 0 1px 0 inset;
 }
