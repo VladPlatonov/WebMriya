@@ -2,6 +2,8 @@
     <div class="row justify-content-md-center">
         <div class="col-md-auto">
             <div class="copywrite">© 2023 <?php echo $ucp_settings['s_title']?> — Проект твого майбутнього.</div>
+			<a href='/offer'> — Договір та умови користувача</a>
+			<a href='/offer'> — Політика конфіденційності</a>
             <img src="<?php echo $ucp_settings['s_logo']?>" class="footer-brand">
         </div>
         
