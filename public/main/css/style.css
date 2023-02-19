@@ -959,7 +959,7 @@ footer {
     margin-top: 100px;
     width: 100%;
     background-color: #181b25;
-    height: 170px;
+    height: 150px;
 
     padding-bottom: 0px;
 
@@ -969,30 +969,33 @@ footer {
     position: absolute;
     bottom: 0;
 }
-footer .footer-brand {
-    height: 50%;
-    
-    position: relative;
-    z-index: 1;
-    left: 38%;
-    top: 23%;
-   
-    
-    opacity: 0.3;
-   
-}
 
 footer .copywrite {
     color: #ffffff;
-    font-size: 14px;
+    font-size: 13px;
     font-weight: 500;
-    top:20%;
-    position: relative;
-    z-index: 2;
-  
-
     text-align: center;
+    padding: 20px 0 5px 0;
+
+    opacity: 0.9;
     
+}
+
+footer .copywrite a {
+    color: #bfbfbf;
+}
+
+footer .images {
+    text-align: center;
+    padding: 5px 0 10px 0;
+
+    opacity: 0.75;
+}
+
+footer .footer-brand {
+    height: 40px;
+    width: auto;
+    margin-right: 10px;
 }
 
 .table {

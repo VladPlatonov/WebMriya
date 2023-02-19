@@ -2,14 +2,17 @@
     <div class="row justify-content-md-center">
         <div class="col-md-auto" style="height:100px;">
             <div class="copywrite">© 2023 <?php echo $ucp_settings['s_title']?> — Проект твого майбутнього.
-			<br>
-			<a href='/offer'> Договір та умови користувача — </a>
-			<a href='/policy'>Політика конфіденційності — </a>
-			<a href='/about'> Про нас</a>
-			<br>
-			Контакти: електронна пошта admin@mriya-rp.com
+                <br>
+                <a href='/offer'> Договір та умови користувача |</a>
+                <a href='/policy'> Політика конфіденційності |</a>
+                <a href='/about'> Про нас</a>
+                <br>
+                Контакти: електронна пошта admin@mriya-rp.com
 			</div>
-            <img src="public/main/img/mastervisa.png" class="footer-brand">
+            <div class="images">
+                <img src="<?php echo $ucp_settings['s_logo']?>" class="footer-brand">
+                <img src="public/main/img/mastervisa.png" class="footer-brand">
+            </div>
         </div>
         
     </div>
