@@ -959,7 +959,7 @@ footer {
     margin-top: 100px;
     width: 100%;
     background-color: #181b25;
-    height: 110px;
+    height: 170px;
 
     padding-bottom: 0px;
 
@@ -970,7 +970,7 @@ footer {
     bottom: 0;
 }
 footer .footer-brand {
-    height: 60%;
+    height: 50%;
     
     position: relative;
     z-index: 1;
