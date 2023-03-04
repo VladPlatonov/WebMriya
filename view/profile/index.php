@@ -104,7 +104,7 @@
 								<!-- </div> -->
 							</div>
 							<div class="tabcontent " id="inventory">
-								<table>
+								<table class="inventory-table">
 									<thead>
 										<tr>
 											<th>Тип</th>
@@ -145,7 +145,7 @@
 											$button_refund = '<button type="button" class="btn btn-danger" onclick="RefundRouletteItem('.$button_code.');">Повернути</button>';
 											echo "<tr>
 											<td><img src=". $img ."></td>
-											<td>{$button_activate}
+											<td class='buttons' >{$button_activate}
 											{$button_refund}</td>
 										  </tr>";
 										} 

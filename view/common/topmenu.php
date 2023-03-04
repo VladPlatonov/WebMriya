@@ -2,7 +2,7 @@
 	<div class="burg">
 		<nav id="desktop">
         	<div class="container">
-	            <img src="<?php echo $ucp_settings['s_logo']?>" class="nav-brand">
+                <a href="/"><img src="<?php echo $ucp_settings['s_logo']?>" class="nav-brand"></a>
 	            <div class="nav-content">
 	                <div class="nav-items">
 	                    <a href='/'>Головна</a>
